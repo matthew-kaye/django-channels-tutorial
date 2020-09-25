@@ -3,3 +3,6 @@ local:
 
 migrate:
 	cd mysite && python manage.py migrate
+
+shell:
+	cd mysite && python manage.py shell
